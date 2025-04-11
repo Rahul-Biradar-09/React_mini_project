@@ -20,7 +20,7 @@ const Header = props => {
     <div className="Header-container">
       <button type="button" onClick={imageHomeButton} className="imgButton">
         <img
-          src="https://res.cloudinary.com/dhr677kpr/image/upload/v1732888547/image_hkxsmo.png"
+          src="https://res.cloudinary.com/dhr677kpr/image/upload/v1743005210/Frame_8787_dnxknk.png"
           alt="website logo"
           className="Home-image"
         />

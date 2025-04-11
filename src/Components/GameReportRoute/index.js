@@ -232,6 +232,7 @@ class GameReportRoute extends Component {
               Next Question
             </button>
             <button
+              aria-label="Save"
               type="button"
               className="question-previous-button-extra"
               onClick={this.onDecreaseCount}
@@ -239,6 +240,7 @@ class GameReportRoute extends Component {
               <GrFormPrevious fill="#ffffff" size="22px" />
             </button>
             <button
+              aria-label="Save"
               type="button"
               className="question-next-button-extra"
               onClick={this.onIncreaseCount}

@@ -11,7 +11,7 @@ const HomeRoute = () => (
       <div className="Home-card-container">
         <div className="Home-block">
           <img
-            src="https://res.cloudinary.com/dhr677kpr/image/upload/v1732967816/undraw_Questions_re_1fy7_1_avdx2z.png"
+            src="https://res.cloudinary.com/dhr677kpr/image/upload/v1743005303/undraw_Questions_re_1fy7_1_wuvqfu.png"
             alt="start quiz game"
             className="HomeRoute-image"
           />
