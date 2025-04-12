@@ -519,13 +519,11 @@ class QuizGameRoute extends Component {
           <>
             <Header />
             <div className="Quiz-background">
-              {
-                <GameResultRoute
-                  unattempted={unattempted}
-                  rightAnswers={rightAnswers}
-                  attempted={attempted}
-                />
-              }
+              <GameResultRoute
+                unattempted={unattempted}
+                rightAnswers={rightAnswers}
+                attempted={attempted}
+              />
             </div>
           </>
         )}
