@@ -11,7 +11,7 @@ class LoginRoute extends Component {
 
   saveAccessToken = jwtToken => {
     const {history} = this.props
-    Cookies.set('jwtToken', jwtToken)
+    Cookies.set('jwtToken', jwtToken, {expires: 30})
     history.replace('/')
   }
 
